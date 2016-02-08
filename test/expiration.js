@@ -7,6 +7,7 @@ var sinon = require('sinon')
 var angular = require('angular')
 var fs = require('fs')
 require('angular-mocks/ngMock')
+require('phantomjs-polyfill')
 
 describe('Expiration', function () {
   beforeEach(angular.mock.module(require('../')))

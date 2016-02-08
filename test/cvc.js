@@ -5,6 +5,7 @@
 var expect = require('chai').expect
 var angular = require('angular')
 require('angular-mocks/ngMock')
+require('phantomjs-polyfill')
 
 describe('cc-cvc', function () {
   beforeEach(angular.mock.module(require('../')))
